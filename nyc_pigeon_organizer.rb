@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
         organized_data[name] ||= {}
         organized_data[name][category] ||= []
         organized_data[name][category] << value.to_s
-        binding.pry
       end
     end
   end
