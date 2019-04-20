@@ -6,5 +6,7 @@ def nyc_pigeon_organizer(data)
       organized_data[name] ||= {}
       organized_data[name][category] ||= []
       organized_data[name][category] << value
-
+    end
+  end
+  organized_data
 end
